@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open-Sans';
+}
+
+a {
+    text-decoration: none !important;
+}
+
+body {
+    background: url(../img/background.png);
+    width: 100%;
+    background-size: cover;
+    position: relative;
+}
+
+.container {
+    margin-top: 80px;
+    margin-bottom: 75px;
+    padding: 25px;
+}
+
+h1 {
+    font-size: 1.5rem; 
+    color: white;
+}
+
+.row {
+    background-color: rgba(0, 0, 0, 0.9);
+    box-shadow: 0 1px 5px white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 1em;
+}
+
+.input-custom {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border: 1px 1px solid white;
+    background: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.input-custom:focus {
+    border-color: white !important;
+    outline: none;
+}
+
+.input-custom:invalid {
+    border-bottom: 1px solid red;
+}
+
+.input-custom:valid {
+    border-bottom: 1px solid green;
+}
+
+.label-custom {
+    font-weight: bold;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.btn-custom {
+    border: none;
+    font-size: 16px;
+    background-color: #232526;
+    color: white;
+    border-radius: 7px;
+    padding: 10px;
+    width: 100%;
+}
+
+.btn-custom:hover {
+    background-color: #f44336;
+    color: white;
+    transition: all .5s;
+}
